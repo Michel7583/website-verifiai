@@ -25,7 +25,10 @@ export function Section({
   size = "lg",
 }: SectionProps) {
   return (
-    <section id={id} className={cn("relative py-24 sm:py-28 lg:py-32", className)}>
+    <section
+      id={id}
+      className={cn("relative scroll-mt-24 py-16 sm:py-20 lg:py-24", className)}
+    >
       <Container className={containerClassName}>
         {(eyebrow || title || description) && (
           <header

@@ -11,5 +11,5 @@ export function absoluteUrl(path = ""): string {
 }
 
 export function siteUrl(): string {
-  return process.env.NEXT_PUBLIC_SITE_URL ?? "https://veylora.com";
+  return process.env.NEXT_PUBLIC_SITE_URL ?? "https://verifi-ai.dev";
 }

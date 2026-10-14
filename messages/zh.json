@@ -58,7 +58,7 @@
     "tagline": "AI × 区块链 × 金融科技",
     "headline": "塑造金融与智能软件的未来",
     "heroSupport": "我们在 AI、区块链与金融科技的交汇处构建可投入生产的软件。",
-    "description": "Veylora 运用 AI、区块链、Web3 与现代金融科技，打造智能金融产品与可扩展软件。",
+    "description": "VeriFi AI 运用 AI、区块链、Web3 与现代金融科技，打造智能金融产品与可扩展软件。",
     "positioning": "我们构建由 AI、区块链与现代金融基础设施驱动的智能金融产品与下一代软件。",
     "mission": "在 AI、区块链与金融基础设施的交汇处设计并构建可投入生产的软件——让有雄心的公司将复杂想法变成可交付、可运营、可扩展的系统。",
     "vision": "智能即基础设施的金融软件图景：可靠、透明、可问责。下一代货币产品应以依赖它们的机构同等的严谨来工程化。",
@@ -195,7 +195,7 @@
     "kannan": {
       "role": "创始人 & CEO",
       "focus": "产品与工程",
-      "bio": "Kannan 是 Veylora 的创始人兼 CEO。他是软件工程师与创业者，热衷于构建帮助人们更好生活的产品。",
+      "bio": "Kannan 是 VeriFi AI 的创始人兼 CEO。他是软件工程师与创业者，热衷于构建帮助人们更好生活的产品。",
       "imageAlt": "Kannan Kanagiah 肖像，创始人 & CEO"
     },
     "marcus": {
@@ -365,7 +365,7 @@
     "placeholder": "询问产品或合作…",
     "send": "发送",
     "opening": "我可以帮您了解 {name} 在 AI、区块链与金融科技方面的工作，或引导您到合适页面。您在构建什么？",
-    "suggestion1": "Veylora 构建什么？",
+    "suggestion1": "VeriFi AI 构建什么？",
     "suggestion2": "你们如何着手新产品？",
     "suggestion3": "我们如何启动项目？",
     "error": "助手无法回复。",

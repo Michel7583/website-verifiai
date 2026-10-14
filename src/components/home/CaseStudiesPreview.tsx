@@ -11,7 +11,7 @@ export async function CaseStudiesPreview() {
   const featured = caseStudies.slice(0, 3);
 
   return (
-    <Section title={t("caseStudiesTitle")} description={t("caseStudiesDesc")}>
+    <Section id="work" title={t("caseStudiesTitle")} description={t("caseStudiesDesc")}>
       {featured.length === 0 ? null : (
         <div className="grid gap-5 lg:grid-cols-3">
           {featured.map((study, index) => (

@@ -78,13 +78,20 @@ function NavbarInner() {
                 className="relative"
                 onMouseEnter={() => setOpenMenu(item.href)}
                 onMouseLeave={() => setOpenMenu(null)}
+                onFocus={() => setOpenMenu(item.href)}
+                onBlur={(event) => {
+                  const next = event.relatedTarget;
+                  if (!(next instanceof Node) || !event.currentTarget.contains(next)) {
+                    setOpenMenu(null);
+                  }
+                }}
               >
                 <Link
                   href={item.href}
                   className={cn(
-                    "inline-flex items-center gap-1 rounded-full px-3.5 py-2 text-sm text-foreground/72 transition-colors hover:text-foreground",
+                    "inline-flex items-center gap-1 rounded-full px-3.5 py-2 text-sm text-foreground/72 transition-colors hover:bg-card hover:text-foreground",
                     (pathname === item.href || pathname.startsWith(`${item.href}/`)) &&
-                      "text-foreground",
+                      "bg-card text-foreground",
                   )}
                   aria-expanded={openMenu === item.href}
                   aria-haspopup="true"
@@ -135,8 +142,8 @@ function NavbarInner() {
                 key={item.href}
                 href={item.href}
                 className={cn(
-                  "rounded-full px-3.5 py-2 text-sm text-foreground/72 transition-colors hover:text-foreground",
-                  pathname === item.href && "text-foreground",
+                  "rounded-full px-3.5 py-2 text-sm text-foreground/72 transition-colors hover:bg-card hover:text-foreground",
+                  pathname === item.href && "bg-card text-foreground",
                 )}
               >
                 {item.label}
@@ -154,7 +161,6 @@ function NavbarInner() {
         </div>
 
         <div className="flex items-center gap-2 lg:hidden">
-          <LanguageSwitcher />
           <ThemeToggle />
           <button
             type="button"
@@ -206,8 +212,9 @@ function NavbarInner() {
                   ) : null}
                 </div>
               ))}
-              <div className="pt-4">
-                <Button href="/contact" className="w-full" size="lg">
+              <div className="flex items-center justify-between gap-3 pt-4">
+                <LanguageSwitcher />
+                <Button href="/contact" className="min-w-0 flex-1" size="lg">
                   {tc("startProject")}
                 </Button>
               </div>

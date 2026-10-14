@@ -58,7 +58,7 @@
     "tagline": "AI × Blockchain × Fintech",
     "headline": "Engineering the Future of Finance and Intelligent Software",
     "heroSupport": "We build production-ready software at the intersection of AI, blockchain, and fintech.",
-    "description": "Veylora builds intelligent financial products and scalable software using AI, blockchain, Web3, and modern fintech technologies.",
+    "description": "VeriFi AI builds intelligent financial products and scalable software using AI, blockchain, Web3, and modern fintech technologies.",
     "positioning": "We build intelligent financial products and next-generation software powered by AI, blockchain, and modern financial infrastructure.",
     "mission": "To design and build production-ready software at the intersection of AI, blockchain, and financial infrastructure—so ambitious companies can turn complex ideas into systems that ship, operate, and scale.",
     "vision": "A financial software landscape where intelligence is infrastructure: reliable, transparent, and accountable. The next generation of money products should be engineered with the same rigor as the institutions that depend on them.",
@@ -195,7 +195,7 @@
     "kannan": {
       "role": "Founder & CEO",
       "focus": "Product & engineering",
-      "bio": "Kannan is the founder and CEO of Veylora. He is a software engineer and entrepreneur with a passion for building products that help people live better lives.",
+      "bio": "Kannan is the founder and CEO of VeriFi AI. He is a software engineer and entrepreneur with a passion for building products that help people live better lives.",
       "imageAlt": "Portrait of Kannan Kanagiah, Founder & CEO"
     },
     "marcus": {
@@ -365,7 +365,7 @@
     "placeholder": "Ask about a product or engagement…",
     "send": "Send",
     "opening": "I can help you understand {name}'s work across AI, blockchain, and fintech—or point you to the right page. What are you building?",
-    "suggestion1": "What does Veylora build?",
+    "suggestion1": "What does VeriFi AI build?",
     "suggestion2": "How do you approach a new product?",
     "suggestion3": "How do we start a project?",
     "error": "The assistant could not reply.",

@@ -11,6 +11,7 @@ export async function SolutionsPreview() {
 
   return (
     <Section
+      id="solutions"
       className="bg-panel"
       title={t("solutionsTitle")}
       description={t("solutionsDesc")}

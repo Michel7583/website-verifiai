@@ -1,22 +1,22 @@
 <p align="center">
-  <img src="public/images/veylora-mark.png" width="96" alt="Veylora mark" />
+  <img src="public/images/veylora-mark.png" width="96" alt="VeriFi AI mark" />
 </p>
 
-<h1 align="center">Veylora</h1>
+<h1 align="center">VeriFi AI</h1>
 
 <p align="center"><strong>Engineering the Future of Finance and Intelligent Software</strong></p>
 
-Veylora is an international software company that builds production-ready systems at the intersection of AI, blockchain, and fintech. We are an engineering partner—not a staffing marketplace and not a generic outsourcing agency.
+VeriFi AI is an international software company that builds production-ready systems at the intersection of AI, blockchain, and fintech. We are an engineering partner—not a staffing marketplace and not a generic outsourcing agency.
 
 We work with ambitious companies to turn complex ideas into software that can ship, operate, and scale.
 
-- Website: [veylora.network](https://veylora.network)
-- Email: [career@veylora.network](mailto:career@veylora.network)
-- Telegram: [t.me/Veylora_official](https://t.me/Veylora_official)
+- Website: [verifi-ai.dev](https://verifi-ai.dev)
+- Email: [hiring@verifi-ai.dev](mailto:hiring@verifi-ai.dev)
+- Telegram: [@VeriFiAI_Official](https://t.me/VeriFiAI_Official)
 
 ## Who we are
 
-Veylora designs and builds intelligent financial products and next-generation software powered by AI, blockchain, and modern financial infrastructure.
+VeriFi AI designs and builds intelligent financial products and next-generation software powered by AI, blockchain, and modern financial infrastructure.
 
 Our work combines product strategy, UX/UI, software engineering, AI, blockchain, cloud infrastructure, and data engineering. We take on systems we can own—from the first architecture decision through launch and scale.
 
@@ -94,10 +94,7 @@ Every engagement follows the same sequence:
 
 We typically respond within 1 business day.
 
-- Start a project: [veylora.network/contact](https://veylora.network/contact)
-- Email: [career@veylora.network](mailto:career@veylora.network)
-- LinkedIn: [linkedin.com/company/veylora-network](https://www.linkedin.com/company/veylora-network)
-- X: [x.com/VeyloraNetwork](https://x.com/VeyloraNetwork)
-- GitHub: [github.com/veylora-org](https://github.com/veylora-org)
-- Telegram: [t.me/Veylora_official](https://t.me/Veylora_official)
+- Start a project: [verifi-ai.dev/contact](https://verifi-ai.dev/contact)
+- Email: [hiring@verifi-ai.dev](mailto:hiring@verifi-ai.dev)
+- Telegram: [@VeriFiAI_Official](https://t.me/VeriFiAI_Official)
 - Location: International · Remote-first studio · Europe · Asia · Americas

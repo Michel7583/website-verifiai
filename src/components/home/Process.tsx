@@ -45,7 +45,7 @@ export async function Process() {
   const th = await getTranslations("Home");
 
   return (
-    <Section title={th("processTitle")} description={th("processDesc")}>
+    <Section id="process" title={th("processTitle")} description={th("processDesc")}>
       <ol className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {steps.map((step) => (
           <li key={step.number} className="h-full">

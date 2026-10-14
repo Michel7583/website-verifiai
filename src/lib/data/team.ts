@@ -12,7 +12,7 @@ export const team: TeamMember[] = [
     name: "Kannan Kanagiah",
     role: "Founder & CEO",
     focus: "Product & engineering",
-    bio: "Kannan is the founder and CEO of Veylora. He is a software engineer and entrepreneur with a passion for building products that help people live better lives.",
+    bio: "Kannan is the founder and CEO of VeriFi AI. He is a software engineer and entrepreneur with a passion for building products that help people live better lives.",
     image: "/images/team-kannan.png",
     imageAlt: "Portrait of Kannan Kanagiah, Founder & CEO",
   },

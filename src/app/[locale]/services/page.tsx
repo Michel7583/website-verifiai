@@ -4,6 +4,7 @@ import { createLocalizedMetadata } from "@/lib/seo";
 import { site } from "@/lib/site";
 import { routing } from "@/i18n/routing";
 import { Cta } from "@/components/home/Cta";
+import { Continue } from "@/components/layout/Continue";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
@@ -35,6 +36,7 @@ export default async function ServicesPage({ params }: Props) {
   const t = await getTranslations("ServicesPage");
   const ts = await getTranslations("Service");
   const tc = await getTranslations("Common");
+  const tn = await getTranslations("Nav");
 
   return (
     <>
@@ -86,6 +88,11 @@ export default async function ServicesPage({ params }: Props) {
         </div>
       </Section>
 
+      <Continue
+        hint={t("description")}
+        label={tn("solutions")}
+        href="/solutions"
+      />
       <Cta />
     </>
   );

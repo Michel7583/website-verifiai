@@ -3,6 +3,7 @@ import { site } from "@/lib/site";
 import { createLocalizedMetadata } from "@/lib/seo";
 import { routing } from "@/i18n/routing";
 import { Cta } from "@/components/home/Cta";
+import { Continue } from "@/components/layout/Continue";
 import { Card } from "@/components/ui/Card";
 import { Reveal } from "@/components/ui/Reveal";
 import { Section } from "@/components/ui/Section";
@@ -46,6 +47,7 @@ export default async function AboutPage({ params }: Props) {
   const ts = await getTranslations("Site");
   const tm = await getTranslations("MissionVision");
   const tp = await getTranslations("Principles");
+  const tc = await getTranslations("Common");
 
   return (
     <>
@@ -123,6 +125,7 @@ export default async function AboutPage({ params }: Props) {
         </div>
       </Section>
 
+      <Continue hint={t("description")} label={tc("startProject")} href="/contact" />
       <Cta />
     </>
   );

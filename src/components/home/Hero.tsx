@@ -1,5 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import { getTranslations } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
 import { CoverImage } from "@/components/visual/CoverImage";
@@ -8,6 +9,14 @@ import { HeroNetwork } from "@/components/visual/HeroNetwork";
 export async function Hero() {
   const t = await getTranslations("Site");
   const tc = await getTranslations("Common");
+  const tn = await getTranslations("Nav");
+
+  const path = [
+    { step: "01", label: tn("services"), href: "#services" },
+    { step: "02", label: tn("solutions"), href: "#solutions" },
+    { step: "03", label: tn("caseStudies"), href: "#work" },
+    { step: "04", label: tc("startProject"), href: "/contact" },
+  ];
 
   return (
     <section className="relative overflow-hidden pt-12 pb-16 sm:pt-16 sm:pb-20 lg:pt-24 lg:pb-28">
@@ -45,6 +54,37 @@ export async function Hero() {
                 {tc("exploreServices")}
               </Button>
             </div>
+            <ol className="mt-10 grid grid-cols-2 gap-2 sm:grid-cols-4">
+              {path.map((item) => (
+                <li key={item.step}>
+                  {item.href.startsWith("#") ? (
+                    <a
+                      href={item.href}
+                      className="flex h-full items-center gap-3 rounded-2xl border border-border bg-card/80 px-3 py-3 transition-colors hover:border-border-strong hover:bg-card"
+                    >
+                      <span className="font-mono text-[11px] tracking-[0.14em] text-accent">
+                        {item.step}
+                      </span>
+                      <span className="text-sm font-medium tracking-[-0.02em]">
+                        {item.label}
+                      </span>
+                    </a>
+                  ) : (
+                    <Link
+                      href={item.href}
+                      className="flex h-full items-center gap-3 rounded-2xl border border-border bg-card/80 px-3 py-3 transition-colors hover:border-border-strong hover:bg-card"
+                    >
+                      <span className="font-mono text-[11px] tracking-[0.14em] text-accent">
+                        {item.step}
+                      </span>
+                      <span className="text-sm font-medium tracking-[-0.02em]">
+                        {item.label}
+                      </span>
+                    </Link>
+                  )}
+                </li>
+              ))}
+            </ol>
           </div>
 
           <div className="relative">

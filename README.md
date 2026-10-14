@@ -1,16 +1,16 @@
 <p align="center">
-  <img src="public/images/veylora-mark.png" width="72" alt="Veylora" />
+  <img src="public/images/veylora-mark.png" width="72" alt="VeriFi AI" />
 </p>
 
-# Veylora
+# VeriFi AI
 
 Engineering partner for **AI × Blockchain × Fintech**.
 
-This repository is the public website for [Veylora](https://veylora.network): a remote-first studio that designs and builds production-ready software at the intersection of AI, blockchain, and modern financial infrastructure.
+This repository is the public website for [VeriFi AI](https://verifi-ai.dev): a remote-first studio that designs and builds production-ready software at the intersection of AI, blockchain, and modern financial infrastructure.
 
 Company introduction: [COMPANY.md](COMPANY.md)
 
-[veylora.network](https://veylora.network) · [Start a project](https://veylora.network/contact) · [X](https://x.com/VeyloraNetwork) · [Telegram](https://t.me/Veylora_official)
+[verifi-ai.dev](https://verifi-ai.dev) · [Start a project](https://verifi-ai.dev/contact) · [Telegram](https://t.me/VeriFiAI_Official)
 
 ## Mission
 
@@ -90,6 +90,6 @@ URLs are locale-prefixed (`/en`, `/zh/about`, …). `/` redirects to `/en`. Copy
 
 ## Contact
 
-- Email: [career@veylora.network](mailto:career@veylora.network)
-- Telegram: [t.me/Veylora_official](https://t.me/Veylora_official)
+- Email: [hiring@verifi-ai.dev](mailto:hiring@verifi-ai.dev)
+- Telegram: [@VeriFiAI_Official](https://t.me/VeriFiAI_Official)
 - Location: International · Remote-first · Europe · Asia · Americas

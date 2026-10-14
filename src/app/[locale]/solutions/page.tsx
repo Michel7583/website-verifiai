@@ -3,6 +3,7 @@ import { createLocalizedMetadata } from "@/lib/seo";
 import { site } from "@/lib/site";
 import { routing } from "@/i18n/routing";
 import { Cta } from "@/components/home/Cta";
+import { Continue } from "@/components/layout/Continue";
 import { Section } from "@/components/ui/Section";
 import { PageHero } from "@/components/pages/PageHero";
 import { SolutionsExplorer } from "@/components/pages/SolutionsExplorer";
@@ -28,6 +29,7 @@ export default async function SolutionsPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("SolutionsPage");
+  const tn = await getTranslations("Nav");
 
   return (
     <>
@@ -41,6 +43,11 @@ export default async function SolutionsPage({ params }: Props) {
       <Section>
         <SolutionsExplorer />
       </Section>
+      <Continue
+        hint={t("description")}
+        label={tn("caseStudies")}
+        href="/case-studies"
+      />
       <Cta />
     </>
   );

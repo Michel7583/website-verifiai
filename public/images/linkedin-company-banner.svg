@@ -22,25 +22,25 @@
 
   <g transform="translate(3480 86) scale(16.5)" opacity="0.14">
     <path
-      d="M21.8 7.2c-5.4-3.2-12.4-1-14.8 4.6-2.5 5.8.2 12.2 6 14.6 4.1 1.7 8.7.4 11.4-2.8"
+      d="M8.2 15.6 13.9 22.4"
       stroke="#EEF1F6"
-      stroke-width="2.35"
+      stroke-width="2.4"
       stroke-linecap="round"
     />
-    <path d="M10 5.6 22.2 26.6" stroke="#7AA2FF" stroke-width="2.15" stroke-linecap="round"/>
-    <circle cx="16.1" cy="16.1" r="2.2" fill="#C4A574"/>
+    <path d="M13.9 22.4 24.4 8.2" stroke="#7AA2FF" stroke-width="2.25" stroke-linecap="round"/>
+    <circle cx="13.9" cy="22.4" r="2.15" fill="#C4A574"/>
   </g>
 
   <rect x="220" y="190" width="320" height="320" rx="80" fill="#0E1219"/>
   <g transform="translate(252 222) scale(8)">
     <path
-      d="M21.8 7.2c-5.4-3.2-12.4-1-14.8 4.6-2.5 5.8.2 12.2 6 14.6 4.1 1.7 8.7.4 11.4-2.8"
+      d="M8.2 15.6 13.9 22.4"
       stroke="#EEF1F6"
-      stroke-width="2.35"
+      stroke-width="2.4"
       stroke-linecap="round"
     />
-    <path d="M10 5.6 22.2 26.6" stroke="#7AA2FF" stroke-width="2.15" stroke-linecap="round"/>
-    <circle cx="16.1" cy="16.1" r="2.2" fill="#C4A574"/>
+    <path d="M13.9 22.4 24.4 8.2" stroke="#7AA2FF" stroke-width="2.25" stroke-linecap="round"/>
+    <circle cx="13.9" cy="22.4" r="2.15" fill="#C4A574"/>
   </g>
 
   <text
@@ -51,7 +51,7 @@
     font-size="128"
     font-weight="600"
     letter-spacing="-3.2"
-  >Veylora</text>
+  >VeriFi AI</text>
   <text
     x="604"
     y="392"
@@ -79,5 +79,5 @@
     font-weight="500"
     text-anchor="end"
     letter-spacing="1.4"
-  >veylora.network</text>
+  >verifi-ai.dev</text>
 </svg>

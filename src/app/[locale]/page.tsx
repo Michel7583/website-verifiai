@@ -2,7 +2,6 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { AboutPreview } from "@/components/home/AboutPreview";
 import { CaseStudiesPreview } from "@/components/home/CaseStudiesPreview";
 import { Cta } from "@/components/home/Cta";
-import { CtaBand } from "@/components/home/CtaBand";
 import { Hero } from "@/components/home/Hero";
 import { Partners } from "@/components/home/Partners";
 import { Process } from "@/components/home/Process";
@@ -37,34 +36,18 @@ export async function generateMetadata({ params }: Props) {
 export default async function Home({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations("Home");
-  const tc = await getTranslations("Common");
-
   return (
     <>
       <Hero />
-      <Partners />
       <Services />
-      <CtaBand
-        title={t("ctaBand1Title")}
-        description={t("ctaBand1Desc")}
-        primaryLabel={tc("startProject")}
-        secondaryLabel={tc("viewCaseStudies")}
-        secondaryHref="/case-studies"
-      />
-      <WhyUs />
+      <Process />
       <SolutionsPreview />
       <CaseStudiesPreview />
-      <CtaBand
-        title={t("ctaBand2Title")}
-        primaryLabel={tc("startProject")}
-        secondaryLabel={t("ctaBand2Secondary")}
-        secondaryHref="/services"
-      />
-      <Technology />
-      <Process />
+      <WhyUs />
       <AboutPreview />
       <TeamPreview />
+      <Technology />
+      <Partners />
       <Cta />
     </>
   );

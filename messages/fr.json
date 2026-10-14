@@ -58,7 +58,7 @@
     "tagline": "AI × Blockchain × Fintech",
     "headline": "Ingénierie de l'avenir de la finance et des logiciels intelligents",
     "heroSupport": "Nous construisons des logiciels prêts pour la production à l'intersection de l'IA, de la blockchain et de la fintech.",
-    "description": "Veylora conçoit des produits financiers intelligents et des logiciels évolutifs avec l'IA, la blockchain, le Web3 et les technologies fintech modernes.",
+    "description": "VeriFi AI conçoit des produits financiers intelligents et des logiciels évolutifs avec l'IA, la blockchain, le Web3 et les technologies fintech modernes.",
     "positioning": "Nous construisons des produits financiers intelligents et des logiciels de nouvelle génération alimentés par l'IA, la blockchain et l'infrastructure financière moderne.",
     "mission": "Concevoir et construire des logiciels prêts pour la production à l'intersection de l'IA, de la blockchain et de l'infrastructure financière—pour que des entreprises ambitieuses transforment des idées complexes en systèmes qui livrent, opèrent et passent à l'échelle.",
     "vision": "Un paysage de logiciels financiers où l'intelligence est une infrastructure : fiable, transparente et responsable. La prochaine génération de produits monétaires doit être conçue avec la même rigueur que les institutions qui en dépendent.",
@@ -195,7 +195,7 @@
     "kannan": {
       "role": "Fondateur et CEO",
       "focus": "Produit et ingénierie",
-      "bio": "Kannan est le fondateur et CEO de Veylora. Ingénieur logiciel et entrepreneur, il a la passion de construire des produits qui améliorent la vie des gens.",
+      "bio": "Kannan est le fondateur et CEO de VeriFi AI. Ingénieur logiciel et entrepreneur, il a la passion de construire des produits qui améliorent la vie des gens.",
       "imageAlt": "Portrait de Kannan Kanagiah, Fondateur et CEO"
     },
     "marcus": {
@@ -365,7 +365,7 @@
     "placeholder": "Question sur un produit ou un engagement…",
     "send": "Envoyer",
     "opening": "Je peux vous aider à comprendre le travail de {name} en IA, blockchain et fintech—ou vous orienter vers la bonne page. Que construisez-vous ?",
-    "suggestion1": "Que construit Veylora ?",
+    "suggestion1": "Que construit VeriFi AI ?",
     "suggestion2": "Comment abordez-vous un nouveau produit ?",
     "suggestion3": "Comment démarrer un projet ?",
     "error": "L'assistant n'a pas pu répondre.",

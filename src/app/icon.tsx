@@ -16,15 +16,21 @@ export default function Icon() {
           background: "#07090e",
         }}
       >
-        <div
-          style={{
-            display: "flex",
-            width: 8,
-            height: 8,
-            borderRadius: 99,
-            background: "#7aa2ff",
-          }}
-        />
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+          <path
+            d="M8.2 15.6 13.9 22.4"
+            stroke="#EEF1F6"
+            strokeWidth="2.4"
+            strokeLinecap="round"
+          />
+          <path
+            d="M13.9 22.4 24.4 8.2"
+            stroke="#7AA2FF"
+            strokeWidth="2.25"
+            strokeLinecap="round"
+          />
+          <circle cx="13.9" cy="22.4" r="2.15" fill="#C4A574" />
+        </svg>
       </div>
     ),
     size,

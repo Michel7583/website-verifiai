@@ -58,7 +58,7 @@
     "tagline": "AI × Blockchain × Fintech",
     "headline": "Ingeniería del futuro de las finanzas y el software inteligente",
     "heroSupport": "Construimos software listo para producción en la intersección de IA, blockchain y fintech.",
-    "description": "Veylora crea productos financieros inteligentes y software escalable con IA, blockchain, Web3 y tecnologías fintech modernas.",
+    "description": "VeriFi AI crea productos financieros inteligentes y software escalable con IA, blockchain, Web3 y tecnologías fintech modernas.",
     "positioning": "Construimos productos financieros inteligentes y software de nueva generación impulsados por IA, blockchain e infraestructura financiera moderna.",
     "mission": "Diseñar y construir software listo para producción en la intersección de IA, blockchain e infraestructura financiera, para que empresas ambiciosas conviertan ideas complejas en sistemas que se entreguen, operen y escalen.",
     "vision": "Un panorama de software financiero donde la inteligencia es infraestructura: fiable, transparente y responsable. La próxima generación de productos monetarios debe diseñarse con el mismo rigor que las instituciones que dependen de ellos.",
@@ -195,7 +195,7 @@
     "kannan": {
       "role": "Fundador y CEO",
       "focus": "Producto e ingeniería",
-      "bio": "Kannan es el fundador y CEO de Veylora. Es ingeniero de software y emprendedor con pasión por construir productos que ayuden a las personas a vivir mejor.",
+      "bio": "Kannan es el fundador y CEO de VeriFi AI. Es ingeniero de software y emprendedor con pasión por construir productos que ayuden a las personas a vivir mejor.",
       "imageAlt": "Retrato de Kannan Kanagiah, Fundador y CEO"
     },
     "marcus": {
@@ -365,7 +365,7 @@
     "placeholder": "Pregunta sobre un producto o proyecto…",
     "send": "Enviar",
     "opening": "Puedo ayudarte a entender el trabajo de {name} en IA, blockchain y fintech—o llevarte a la página adecuada. ¿Qué estás construyendo?",
-    "suggestion1": "¿Qué construye Veylora?",
+    "suggestion1": "¿Qué construye VeriFi AI?",
     "suggestion2": "¿Cómo abordáis un producto nuevo?",
     "suggestion3": "¿Cómo empezamos un proyecto?",
     "error": "El asistente no pudo responder.",

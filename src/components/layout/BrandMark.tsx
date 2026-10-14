@@ -4,7 +4,7 @@ type BrandMarkProps = {
   className?: string;
 };
 
-/** Unique Veylora mark: a veil arc crossed by an axis, pinned with a gold node. */
+/** VeriFi AI mark: a verification check pinned with a gold node. */
 export function BrandMark({ className }: BrandMarkProps) {
   return (
     <svg
@@ -13,20 +13,20 @@ export function BrandMark({ className }: BrandMarkProps) {
       aria-hidden
     >
       <path
-        d="M21.8 7.2c-5.4-3.2-12.4-1-14.8 4.6-2.5 5.8.2 12.2 6 14.6 4.1 1.7 8.7.4 11.4-2.8"
+        d="M8.2 15.6 13.9 22.4"
         fill="none"
         stroke="currentColor"
-        strokeWidth="2.35"
+        strokeWidth="2.4"
         strokeLinecap="round"
       />
       <path
-        d="M10 5.6 22.2 26.6"
+        d="M13.9 22.4 24.4 8.2"
         fill="none"
         stroke="var(--accent)"
-        strokeWidth="2.15"
+        strokeWidth="2.25"
         strokeLinecap="round"
       />
-      <circle cx="16.1" cy="16.1" r="2.2" fill="var(--gold)" />
+      <circle cx="13.9" cy="22.4" r="2.15" fill="var(--gold)" />
     </svg>
   );
 }

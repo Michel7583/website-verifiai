@@ -4,6 +4,7 @@ import { createLocalizedMetadata } from "@/lib/seo";
 import { site } from "@/lib/site";
 import { routing } from "@/i18n/routing";
 import { Cta } from "@/components/home/Cta";
+import { Continue } from "@/components/layout/Continue";
 import { Reveal } from "@/components/ui/Reveal";
 import { Section } from "@/components/ui/Section";
 import { PageHero } from "@/components/pages/PageHero";
@@ -30,6 +31,7 @@ export default async function CaseStudiesPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("CaseStudiesPage");
+  const tc = await getTranslations("Common");
 
   return (
     <>
@@ -51,6 +53,11 @@ export default async function CaseStudiesPage({ params }: Props) {
         </div>
       </Section>
 
+      <Continue
+        hint={t("description")}
+        label={tc("startProject")}
+        href="/contact"
+      />
       <Cta />
     </>
   );
